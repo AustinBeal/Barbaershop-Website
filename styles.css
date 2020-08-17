@@ -1,0 +1,1428 @@
+*{
+  box-sizing: border-box;
+} 
+  body{
+  width: 100%;
+  height: 100%;
+  background-image: url(./imgs/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-color: lightslategray;
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Playfair Display', serif;
+  
+
+}
+h1{
+  width: 100%;
+  margin: 0pt;
+  margin-top: 200px;
+  margin-bottom: 220px;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+.headerbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.update{
+  background-color: black;
+  color: white;
+}
+.titlehead{
+  font-size: 40px;
+  background-color: white;
+}
+
+.toggle-button{
+  background-image: url(./imgs/Hamburger_icon.jpg);
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-repeat: no-repeat ;
+}
+.nav-list{
+  padding-left: 0px;
+}
+#sidebar {
+  position: fixed;
+  top: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: lightslategray;
+  left: -200px;
+}
+#sidebar.active{
+  left: 0px;
+}
+#sidebar ul li {
+  color: white;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(82, 93, 104) ;
+}
+#sidebar .toggle-button{
+  position: absolute;
+  left: 200px;
+  top:10px;
+}
+.close{
+  margin-left: 80%;
+  display: flex;
+  justify-content:  end;
+  background-color: black;
+  color: white;
+  
+}
+.search{
+  background: url(./imgs/search.png);
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border: none;
+  background-color: none;
+}
+
+.cart{
+  background: url(./imgs/shopping-cart-logo.jpg);
+  width: 85px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border: none;
+  background-color: none;
+  }
+.appointment{
+  border: line black;
+  border-width: 7px;
+}
+.discount{
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  border-top: solid 2px slategray ;
+}
+.discountb{
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.slideshow-container{
+  background-color: white;
+}
+.imggallery{
+  background-color: white;
+}
+.text{
+  background-color: lightslategray;
+}
+.slideshowtag:visited{
+  text-decoration: none;
+}
+.slideshowtag:link{
+  text-decoration: none;
+}
+.slideshowtag:hover{
+  text-decoration: none;
+}
+.slideshowtag:active{
+  text-decoration: none;
+}
+p{
+  width: 100%;
+  margin:0px;
+  text-align: center;
+  background-color: white;
+}
+h2{
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0px 10px 0px;
+  border-top: solid 2px slategray ;
+}
+.collect{
+  margin-bottom: 0px ;
+}
+.collectiondiv{
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.collectdiv{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 160px 50px;
+  grid-column-gap: 10px;
+  
+}
+.collectionp{
+  width: 150px;
+  background-color: white;
+  font-size: 18px;
+  text-align: center;
+}
+#care{
+  width: 150px;
+}
+.mainquote h2{
+  margin-bottom: 0px;
+  width: 100%;
+}
+.mainquotep{
+ 
+  font-size: 18px;
+ 
+}
+.mainquotec{
+
+  font-size: 18px;
+  font-variant: small-caps;
+  text-underline-position: below;
+  text-decoration: underline 2px ;
+   font-weight: bolder;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  
+}
+.servicesa{
+  display: grid ;
+  grid-template-columns: repeat(2, 1fr) ;
+  width: 70%;
+  grid-column-gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px ;
+  
+}
+.servicescola{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 25px;
+}
+.servicehead{
+  text-align: center;
+  grid-column: 1/ span 2;
+  font-size: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.servname{
+  text-align: start;
+  padding-bottom: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+.price{
+  text-align: end;
+  padding-bottom: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+.servicedescription{
+  text-align: center;
+  grid-column: 1/ span 2;
+  text-align: start;
+  padding-bottom: 25px;
+  background-color: white;
+  border-top: black 1pt solid;
+  padding-top: 10px;
+}
+.servicescolb{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.booknow{
+  font-weight: bolder;
+}
+.blogheader{
+  background-color: lightslategray ;
+  border-top: solid 2px slategray ;
+}
+.blogcont{
+ display: flex;
+ justify-content: center;
+ background-color: lightslategray;
+
+}
+.blog{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+   grid-column-gap: 10px;
+}
+.blog1{
+  width: 100%;
+  height: 300px;
+  background: cover;
+  background-size: cover;
+  background-image: url(./imgs/blog1.jpg);
+}
+.blog2{
+  width: 100%;
+  height: 300px;
+  background: cover;
+  background-size: cover;
+  background-image: url(./imgs/blog2.jpg);
+}
+.blog3{
+  width: 100%;
+  height: 300px;
+  background: cover;
+  background-size: cover;
+  background-image: url(./imgs/blog6.jpg);
+}
+.bloghead{
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+.readmore{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.viewmore{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: lightslategray;
+}
+.viewmbutton{
+  border: line black;
+  border-width: 7px;
+}
+.instagram{
+  background-color: slategray;
+  font-size: 40px;
+}
+.ainsta:visited{
+  text-decoration: none;
+  color: black;
+}
+.ainsta:link{
+  text-decoration: none;
+  color: black;
+}
+.ainsta:hover{
+  text-decoration: none;
+  color: black;
+}
+.ainsta:active{
+  text-decoration: none;
+  color: black;
+}
+.closingp{
+  padding-bottom: 40px;
+  background-color: slategray;
+}
+.contacta{
+  display: flex;
+  background-color: white;
+}
+.contactbody{
+  display: grid;
+  height: 600px;
+  width: 60%;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 100%  ;
+  grid-column-gap: 10px;
+}
+.openmaps{
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+.contactimg{
+    display: flex;
+  justify-items: center;
+  align-content: center;
+  margin: 0px;
+  
+}
+#contactimg{
+  width: 80%;
+
+  
+}
+.hours{
+  height: 100%;
+  display: flex;
+ justify-content: center;
+ align-items: stretch;
+  flex-direction: column;
+}
+.hours p{
+   display: flex;
+  margin-left: 20px;
+  background-color: transparent;
+}
+.hoursa{
+  font-weight: bold; 
+  padding-top: 25px;
+  padding-bottom: 10px;
+  
+}
+.findus{
+  height: 100%;
+  display: flex;
+ justify-content: center;
+ align-items: stretch;
+  flex-direction: column;
+  grid-row: 1/ span 3;
+}
+.findus p{
+   display: flex;
+  margin-left: 90px;
+  background-color: transparent;
+}
+.findusa{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.findusb{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.findusc{
+  padding-top: 20px;
+}
+.subscribe{
+ background-color: lightslategray; 
+}
+.subscribebutt{
+  background-color: black;
+  color: white;
+}
+.youremail{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  background-color: lightslategray;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footernav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: black;
+  
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+.copyright{
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none ;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+@media(max-width: 960px){
+   *{
+    box-sizing: border-box;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./imgs/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+   
+    background-color: lightslategray;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    font-family: 'Playfair Display', serif;
+  }
+  h1{
+    margin-top: 70px;
+    margin-bottom: 80px;
+  }
+  .search{
+    display: none;
+  }
+
+  .headerbar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .update{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .titlehead{
+    font-size: 40px;
+    background-color: white;
+  }
+  
+  .toggle-button{
+    background-image: url(./imgs/Hamburger_icon.jpg);
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat ;
+  }
+  .nav-list{
+    padding-left: 0px;
+  }
+  #sidebar {
+    position: fixed;
+    top: 0px;
+    width: 150px;
+    height: 100%;
+    background-color: lightslategray;
+    left: -200px;
+    z-index: 2;
+  }
+  #sidebar.active{
+    left: 0px;
+  }
+  #sidebar ul li {
+    color: white;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgb(82, 93, 104) ;
+  }
+  #sidebar .toggle-button{
+    position: absolute;
+    left: 200px;
+    top:10px;
+  }
+  .close{
+    margin-left: 80%;
+    display: flex;
+    justify-content:  end;
+    background-color: black;
+    color: white;
+    
+  }
+  .search{
+   display: none;
+  }
+  
+  .cart{
+    background: url(./imgs/shopping-cart-logo.jpg);
+    width: 85px;
+    height: 55px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border: none;
+    background-color: none;
+    }
+  .appointment{
+    display: none;
+  }
+  .discount{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  .discountb{
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .imggallery{
+    background-color: white;
+    z-index: 1;
+  }
+  p{
+    width: 100%;
+    margin:0px;
+    text-align: center;
+    background-color: white;
+  }
+  h2{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    border-top: solid 2px slategray ;
+  }
+  .collect{
+    margin-bottom: 0px ;
+  }
+  .collectiondiv{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .collectdiv{
+    width: auto;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px 50px 250px 50px;
+    grid-column-gap: 10px;
+    
+  }
+  .collectionp{
+    width: 250px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  #collp1{
+    grid-row: 2;
+    grid-column: 1;
+  }
+  #collp2{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  #collp3{
+    grid-row: 4;
+    grid-column: 1;
+  }
+  #collp4{
+    grid-row: 4;
+    grid-column: 2;
+  }
+  #collp5{
+    grid-row: 6;
+    grid-column: 1;
+  }
+  #care{
+    width: 250px;
+  }
+  .mainquote h2{
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .mainquotec{
+     padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-variant: small-caps;
+    text-underline-position: below;
+    text-decoration: underline 2px ;
+     font-weight: bolder;
+  }
+  .services{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+  }
+  .servicesa{
+    display: grid ;
+    grid-template-columns:  1fr ;
+    width: 70%;
+    grid-column-gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    
+  }
+  .servicescola{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 25px;
+  }
+  .servicehead{
+    text-align: center;
+    grid-column: 1/ span 2;
+    font-size: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+  .servname{
+    text-align: start;
+    padding-bottom: 5px;
+    background-color: white;
+    font-weight: bold;
+  }
+  .price{
+    text-align: end;
+    padding-bottom: 5px;
+    background-color: white;
+    font-weight: bold;
+  }
+  .servicedescription{
+    text-align: center;
+    grid-column: 1/ span 2;
+    text-align: start;
+    padding-bottom: 25px;
+    background-color: white;
+    border-top: black 1pt solid;
+    padding-top: 10px;
+  }
+  .servicescolb{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .booknow{
+    font-weight: bolder;
+  }
+  .blogheader{
+    background-color: lightslategray ;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .bloghead{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .blogcont{
+   display: flex;
+   justify-content: center;
+   background-color: lightslategray;
+  }
+  .blog{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .blogbody{
+    padding-bottom: 15px;
+    font-size: 18px;
+    
+  }
+  .blog1{
+    width: 100%;
+    height: 300px;
+    background: cover;
+    background-size: cover;
+    background-image: url(./imgs/blog1.jpg);
+    
+  }
+  .blog2{
+    width: 100%;
+    height: 300px;
+    background: cover;
+    background-size: cover;
+    background-image: url(./imgs/blog2.jpg);
+    margin-top: 40px;
+  }
+  .blog3{
+    width: 100%;
+    height: 300px;
+    background: cover;
+    background-size: cover;
+    background-image: url(./imgs/blog6.jpg);
+    margin-top: 40px;
+  }
+  .bloghead{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+  }
+  
+  .readmore{
+    padding: 5px;
+    font-size: 10px;
+    
+  }
+  .readmore:link{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .readmore:visited{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .readmore:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .readmore:active{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .viewmore{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: lightslategray;
+  }
+  .viewmbutton{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+  }
+  .viewmbutton:link{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .viewmbutton:visited{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .viewmbutton:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .viewmbutton:active{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+  .instagram{
+    background-color: slategray;
+    font-size: 40px;
+  }
+  .closingp{
+    padding-bottom: 40px;
+    background-color: slategray;
+  }
+  .contacta{
+    height: 900px;
+    display: grid;
+    background-color: white;
+    grid-template-columns:  1fr  ;
+    grid-template-rows: repeat(3, 1fr)  ;
+  }
+  .contactimg{
+     display: flex;
+    justify-content: center;
+  }
+  #contactimg{
+    border-radius: 300px;
+    width: 600px;
+    height: 600px; 
+    padding: 35px;
+   }
+
+  .contactbody{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+  }
+ 
+  .subscribe{
+   background-color: lightslategray; 
+  }
+  .subscribebutt{
+    background-color: black;
+    color: white;
+  }
+  .youremail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    background-color: lightslategray;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .footernav{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    
+  }
+  a:visited{
+    color: black;
+    text-decoration: none;
+  }
+  .copyright{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: black;
+  }
+}
+@media(max-width: 600px){
+  *{
+   box-sizing: border-box;
+ }
+ body{
+   width: 100%;
+   height: 100%;
+   background-image: url(./imgs/andi-whiskey-Mz_BqbdUDH0-unsplash.jpg) ;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   margin: 0px;
+  
+   background-color: lightslategray;
+   background-attachment: fixed;
+   background-position: 50% 0%;
+   font-family: 'Playfair Display', serif;
+ }
+ h1{
+   margin-top: 70px;
+   margin-bottom: 80px;
+ }
+ .search{
+   display: none;
+ }
+
+ .headerbar{
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .update{
+   background-color: black;
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+ .titlehead{
+   font-size: 40px;
+   background-color: white;
+ }
+ 
+ .toggle-button{
+   background-image: url(./imgs/Hamburger_icon.jpg);
+   width: 50px;
+   height: 50px;
+   border: none;
+   background-repeat: no-repeat ;
+ }
+ .nav-list{
+   padding-left: 0px;
+ }
+ #sidebar {
+   position: fixed;
+   top: 0px;
+   width: 150px;
+   height: 100%;
+   background-color: lightslategray;
+   left: -200px;
+   z-index: 2;
+ }
+ #sidebar.active{
+   left: 0px;
+ }
+ #sidebar ul li {
+   color: white;
+   list-style: none;
+   padding: 15px 10px;
+   border-bottom: 1px solid rgb(82, 93, 104) ;
+ }
+ #sidebar .toggle-button{
+   position: absolute;
+   left: 200px;
+   top:10px;
+ }
+ .close{
+   margin-left: 80%;
+   display: flex;
+   justify-content:  end;
+   background-color: black;
+   color: white;
+   
+ }
+ .search{
+  display: none;
+ }
+ 
+ .cart{
+   background: url(./imgs/shopping-cart-logo.jpg);
+   width: 85px;
+   height: 55px;
+   cursor: pointer;
+   font-weight: bold;
+   padding-bottom: 2px;
+   border: none;
+   background-color: none;
+   }
+ .appointment{
+   display: none;
+ }
+ .discount{
+   font-size: 30px;
+   padding-top: 50px;
+   padding-bottom: 15px;
+ }
+ .discountb{
+   padding-top: 0px;
+   padding-bottom: 50px;
+ }
+ .imggallery{
+   background-color: white;
+   z-index: 1;
+ }
+ p{
+   width: 100%;
+   margin:0px;
+   text-align: center;
+   background-color: white;
+ }
+ h2{
+   width: 100%;
+   margin: 0px 0px 0px 0px;
+   text-align: center;
+   background-color: white;
+   padding: 10px 0px 10px 0px;
+   border-top: solid 2px slategray ;
+ }
+ .collect{
+   margin-bottom: 0px ;
+ }
+ .collectiondiv{
+   width: 100%;
+   margin: auto;
+   background-color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: center;
+ }
+ .collectdiv{
+   width: auto;
+   height: 900px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 250px 50px 250px 50px;
+   grid-column-gap: 10px;
+   
+ }
+ .collectionp{
+   width: 250px;
+   background-color: white;
+   font-size: 18px;
+   text-align: center;
+ }
+ #collp1{
+   grid-row: 2;
+   grid-column: 1;
+ }
+ #collp2{
+   grid-row: 2;
+   grid-column: 2;
+ }
+ #collp3{
+   grid-row: 4;
+   grid-column: 1;
+ }
+ #collp4{
+   grid-row: 4;
+   grid-column: 2;
+ }
+ #collp5{
+   grid-row: 6;
+   grid-column: 1;
+ }
+ #care{
+   width: 250px;
+ }
+ .mainquote h2{
+   margin-bottom: 0px;
+   width: 100%;
+ }
+ .mainquotec{
+    padding-top: 10px;
+   font-size: 18px;
+   padding-bottom: 10px;
+   font-size: 18px;
+   font-variant: small-caps;
+   text-underline-position: below;
+   text-decoration: underline 2px ;
+    font-weight: bolder;
+ }
+ .services{
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   
+ }
+ .servicesa{
+   display: grid ;
+   grid-template-columns:  1fr ;
+   width: 70%;
+   grid-column-gap: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px ;
+   
+ }
+ .servicescola{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-bottom: 25px;
+ }
+ .servicehead{
+   text-align: center;
+   grid-column: 1/ span 2;
+   font-size: 20px;
+   padding-bottom: 10px;
+   background-color: white;
+ }
+ .servname{
+   text-align: start;
+   padding-bottom: 5px;
+   background-color: white;
+   font-weight: bold;
+ }
+ .price{
+   text-align: end;
+   padding-bottom: 5px;
+   background-color: white;
+   font-weight: bold;
+ }
+ .servicedescription{
+   text-align: center;
+   grid-column: 1/ span 2;
+   text-align: start;
+   padding-bottom: 25px;
+   background-color: white;
+   border-top: black 1pt solid;
+   padding-top: 10px;
+ }
+ .servicescolb{
+   display: grid;
+   grid-template-columns: 50% 50%;
+ }
+ .booknow{
+   font-weight: bolder;
+ }
+ .blogheader{
+   background-color: lightslategray ;
+   font-size: 30px;
+   font-weight: bolder;
+ }
+ .bloghead{
+   font-weight: bold;
+   font-size: 25px;
+ }
+ .blogcont{
+  display: flex;
+  justify-content: center;
+  background-color: lightslategray;
+ }
+ .blog{
+   display: grid;
+   grid-template-columns: 1fr;
+   width: 80%;
+ }
+ .blogbody{
+   padding-bottom: 15px;
+   font-size: 18px;
+   
+ }
+ .blog1{
+   width: 100%;
+   height: 300px;
+   background: cover;
+   background-size: cover;
+   background-image: url(./imgs/blog1.jpg);
+   
+ }
+ .blog2{
+   width: 100%;
+   height: 300px;
+   background: cover;
+   background-size: cover;
+   background-image: url(./imgs/blog2.jpg);
+   margin-top: 40px;
+ }
+ .blog3{
+   width: 100%;
+   height: 300px;
+   background: cover;
+   background-size: cover;
+   background-image: url(./imgs/blog6.jpg);
+   margin-top: 40px;
+ }
+ .bloghead{
+   font-size: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ 
+ }
+ 
+ .readmore{
+   padding: 5px;
+   font-size: 10px;
+   
+ }
+ .readmore:link{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .readmore:visited{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .readmore:hover{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .readmore:active{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .viewmore{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding-top: 55px;
+   padding-bottom: 55px;
+   background-color: lightslategray;
+ }
+ .viewmbutton{
+   color: white;
+   background-color: black;
+   padding: 5px 10px;
+ }
+ .viewmbutton:link{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .viewmbutton:visited{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .viewmbutton:hover{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .viewmbutton:active{
+   color: white;
+   background-color: black;
+   text-decoration: none;
+ }
+ .instagram{
+   background-color: slategray;
+   font-size: 40px;
+ }
+ .closingp{
+   padding-bottom: 40px;
+   background-color: slategray;
+ }
+ .contacta{
+   height: 900px;
+   display: grid;
+   background-color: white;
+   grid-template-columns:  1fr  ;
+   grid-template-rows: repeat(3, 1fr)  ;
+ }
+ .contactimg{
+    display: flex;
+   justify-content: center;
+ }
+ #contactimg{
+   border-radius: 300px;
+   width: 600px;
+   height: 600px; 
+   padding: 35px;
+  }
+
+ .contactbody{
+   display: grid;
+   height: 100%;
+   width: 100%;
+   margin-top: 30px;
+ }
+
+ .subscribe{
+  background-color: lightslategray; 
+ }
+ .subscribebutt{
+   background-color: black;
+   color: white;
+ }
+ .youremail{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   padding-top: 20px;
+   padding-bottom: 50px;
+   margin-bottom: 0px;
+   background-color: lightslategray;
+ }
+ .footer{
+   display: grid;
+   grid-template-rows: 50% 50%;
+   grid-template-columns: 1fr;
+ }
+ .footernav{
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+   padding-top: 10px;
+   padding-bottom: 30px;
+   color: black;
+   
+ }
+ a:visited{
+   color: black;
+   text-decoration: none;
+ }
+ .copyright{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   color: black;
+ }
+}

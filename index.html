@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="java.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <title>Bear-ber Shop</title>
+</head>
+<body>
+     
+  <h1>Bear-ber Shop</h1>
+  <p class="update">We Are Back Open! Click Here To Schedule Your Appointment Online
+    </p>
+ <div class="headerbar">
+      <div class="toggle-button" onclick="toggleBar()">
+       </div>
+          <div id="sidebar"> 
+            <ul class="nav-list">
+              <button class="close" onclick="toggleBar()">X</button>
+              <li><a href="./index.html"> HOME</a></li>
+              <li><a href="./blog.html"> BLOG</a></li>
+              <li><a href="./barbers.html"> OUR BARBERS</a></li>
+              <li><a href="./contact.html"> CONTACT</a></li>
+            </ul>
+          </div>
+   <div>
+     <p class="titlehead">Bear-Ber Shop</p>
+  </div>
+   <a href="./shop.html" class="search" >
+
+   </a>
+   <button class="appointment">
+     Schedule An Appointment
+   </button>
+   <a href="./shop.html" class="cart" >
+
+   </a>
+  </div>
+        
+    <p class="discount"> Get 10% Off Your Next Order</p>
+    <p class="discountb">  Subscribe to our email list and receive 10% off your next order (you’ll also receive occasional updates on new products and will get special discounts only available to subscribers)!</p>
+    <div class="imggallery">
+                  <!-- Slideshow container -->
+            <div class="slideshow-container" >
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./imgs/apothecary-87-GelJl0gofbc-unsplash.jpg" style="width:100%">
+                <div class="text">Questions? Comments? <a href="./contact.html" class="slideshowtag">CONTACT US</a></div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./imgs/chris-knight-_H1XXY96pqw-unsplash.jpg" style="width:100%">
+                <div class="text"><a href="./blog.html" class="slideshowtag">Find Answers To Commonly Asked Questions</a></div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./imgs/nick-karvounis-XcLQN-2R9CM-unsplash.jpg" style="width:100%">
+                <div class="text"><a href="./barbers.html" class="slideshowtag">Award Winning Cuts</a></div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+    </div>
+    <div class="mainbody">
+      <div >
+          <h2 class="collect">Collection List</h2>
+          </div>
+      <div class="collectiondiv" href="./shop.html">
+          <div class="collectdiv"  >
+            <img src="./imgs/haircare.jpg" id="care" alt="hair and beard prouducts" class="collimg1"></img>
+            <img src="./imgs/personalcare.jpg" id="care" alt="vitality shot"  class="collimg2"></img>
+            <img src="./imgs/faceacare.jpg" id="care" alt="hair prouducts"  class="collimg3"></img>
+            <img src="./imgs/barbermerch.jpg" id="care" alt="shirts on a rack"  class="collimg4"></img>
+            <img src="./imgs/misccare.jpg" id="care" alt="organized prouducts"  class="collimg5"></img>
+            <p class="collectionp" id="collp1" >Barber Merch</p>
+            <p class="collectionp" id="collp2">Face</p>
+            <p class="collectionp" id="collp3">Hair</p>
+            <p class="collectionp" id="collp4">Personal Care</p>
+            <p class="collectionp" id="collp5">Misc. Accessories and Novelties</p>
+          </div>
+      </div>
+      <div class="mainquote">
+        <h2>Bear-ber Shop</h2>
+        <p class="mainquotep">Bear-BerBarber Co.
+          When you look good, you feel good. We are your one stop shop for quality haircuts, shaves and products. </p>
+          <p class="mainquotec">Schedule An Appointment Today </p>
+      </div>
+      <h2>Services</h2>
+        <div class="services">
+            <div class="servicesa">
+              <div class="servicescola">
+              <p class="servicehead">Head</p>
+              <p class="servname">Barbershop Haircut</p>
+              <p class="price">$30</p>
+              <p class="servicedescription">Combination of clippers and shears combined with a hot lather neck shave and hot towel.</p>
+              <p class="servname">BuzzCut</p>
+              <p class="price">$20</p>
+              <p class="servicedescription">One clipper size all over combined with a hot lather neck shave and hot towel.</p>
+              <p class="servicedescription">Click <a class="booknow">Book Now </a> For Additional Services Offered And Descriptions</p>
+            </div>
+            <div class="servicescolb">
+              <p class="servicehead">Face</p>
+              <p class="servname">Straight Razor Face Shave</p>
+              <p class="price">$35</p>
+              <p class="servicedescription">Treat yourself!
+                Straight Razor Shave includes: application of hot towels to open up the pores and soften the hair follicles. Hot lather is applied followed by a shave with the grain of the beard. A second application of hot lather, with shave across the grain. Finally, a cool towel is applied to close the pores.</p>
+              <p class="servname">Beardtrim</p>
+              <p class="price">$15-$25</p>
+              <p class="servicedescription">Small-Large-Deluxe</p>
+              
+              </div>
+            </div>
+          </div>
+          <h2 class="blogheader">Blog Posts</h2>
+              <div class="blogcont">
+                <div class="blog">
+                    <div>
+                      <div class="blog1">
+                      </div>
+                        <div class="bloghead">
+                          Make Your Own Beard Balm
+                        </div>
+                        <div class="blogbody">
+                          If you want to learn how to make your own beard balm, check this how to article out!
+                        </div>
+                        <a href="./blog.html" class="readmore">READ MORE</a>
+                      </div>
+                      <div>
+                        <div class="blog2">
+                        </div>
+                          <div class="bloghead">
+                            Make Your Own Beard Balm
+                          </div>
+                          <div class="blogbody">
+                            If you want to learn how to make your own beard balm, check this how to article out!
+                          </div>
+                          <a href="./blog.html" class="readmore">READ MORE</a>
+                        </div>
+                        <div>
+                          <div class="blog3">
+                          </div>
+                            <div class="bloghead">
+                              Make Your Own Beard Balm
+                            </div>
+                            <div class="blogbody">
+                              If you want to learn how to make your own beard balm, check this how to article out!
+                            </div>
+                            <a href="./blog.html" class="readmore">READ MORE</a>
+                          </div>
+                </div>
+              </div>
+              <div class="viewmore">
+                <a class="viewmbutton" href="./blog.html" >VIEW MORE</a>
+              </div>
+      <div >
+        <h2 class="instagram">Instagram</h2>
+        <p class="closingp">Follow <a href="https://instagram.com" class="ainsta">@bearbershop</a> on Instagram</p>
+      </div>
+    </div>
+    <div class="contacta">
+        <div class="contactbody">
+          <div class="findus">
+            <p class="findusa">Find Us</p>
+            <p class="findusb">12345 Main St.</p>
+            <p class="findusb">Austin, TX</p>
+            <p class="findusb">612.111.2222</p>
+            <p class="findusc"><a href="#" class="openmaps">OPEN IN MAPS</a></p>
+          </div>
+            <div class="hours">
+              <p class="hoursa">Tues</p>
+              <p>11am- 7pm</p>
+              <p class="hoursa">Weds - Friday</p>
+              <p>10am - 6pm</p>
+              <p class="hoursa">Saturday</p>
+              <p>10am - 3pm</p>
+            </div>
+          </div>
+          <div class="contactimg">
+            <img src="./imgs/bearbershoplogo.jpg" id="contactimg" alt="" ></img>
+          </div>
+    </div>
+    
+    <div class="subscribe">
+      <h2 class="subscribe">Subscribe to our newsletter</h2>
+      <p class="subscribe">Be the first to know about new products and specials!</p>
+        <form class="youremail">
+          <input type="text" class="form-control" id="email" placeholder="Your email" name="email" value="">
+        <button class="subscribebutt">SUBSCRIBE</button>
+        </form>
+    </div>
+    <footer class="footer">
+      <nav class="footernav">
+        <a href="https://www.facebook.com/">FACEBOOK</a>
+        <a href="https://www.instagram.com/">INSTAGRAM</a>
+        <a href="./blog.html">ANSWERS TO COMMON QUESTIONS</a>
+      </nav>
+      <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      <div class="socialmedialinks">
+        
+      </div>
+  </footer>
+</body>
+</html>

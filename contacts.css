@@ -1,0 +1,408 @@
+*{
+  box-sizing: border-box;
+} 
+  body{
+  width: 100%;
+  height: 100%;
+
+  background-size: 101%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-color: lightslategray;
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Playfair Display', serif;
+
+}
+h1{
+  width: 100%;
+  margin: 0pt;
+  margin-top: 200px;
+  margin-bottom: 220px;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+h2{
+  text-align: start;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+p{
+  margin: 5px 10px;
+  width: 200px;
+}
+.strong{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.stronger{
+  font-weight: bolder;
+  font-size: 30px;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+}
+.headerbar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titlehead{
+  margin: 0px;
+  white-space: nowrap;
+}
+.contactus{
+ margin-bottom: 0px;
+ margin-top: 30px;
+ font-size: 15px;
+}
+.titlehead{
+  font-size: 40px;
+  background-color: white;
+}
+
+.toggle-button{
+  background-image: url(./imgs/Hamburger_icon.jpg);
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-repeat: no-repeat ;
+}
+.nav-list{
+  padding-left: 0px;
+}
+#sidebar {
+  position: fixed;
+  top: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: lightslategray;
+  left: -200px;
+}
+#sidebar.active{
+  left: 0px;
+}
+#sidebar ul li {
+  color: white;
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(82, 93, 104) ;
+}
+#sidebar .toggle-button{
+  position: absolute;
+  left: 200px;
+  top:10px;
+}
+.close{
+  margin-left: 80%;
+  display: flex;
+  justify-content:  end;
+ 
+}
+.textwrapper{
+  width: 40%;
+  margin: auto;
+
+}
+.smalltextwrapper{
+  width: 40%;
+  
+}
+.search{
+  background: url(./imgs/search.png);
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border: none;
+  background-color: none;
+}
+
+.cart{
+  background: url(./imgs/shopping-cart-logo.jpg);
+  width: 85px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border: none;
+  background-color: none;
+  }
+.appointment{
+
+  border-width: 7px;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+ 
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.formcontainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.form{
+ width: 100%;
+  font-family: 'Lato';
+  font-weight: 400;
+  
+  
+
+}
+
+.form-control, textarea {
+  width: 100%;
+  
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 100%;
+  overflow: hidden;
+  transition: all .2s ease-in-out; background-color: black;
+}
+
+.button {
+  width: 100%;
+  height: 34px;
+  transition: all .2s ease-in-out;
+  color: white;
+ 
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 300 14px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+.contact-container {
+  max-width: 400px;
+  margin-top: 5px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.email {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footernav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: black;
+  
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+.copyright{
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+
+
+
+@media(max-width: 960px){
+  *{
+   box-sizing: border-box;
+ }
+ h1{
+   margin-top: 70px;
+   margin-bottom: 80px;
+   white-space: nowrap;
+ }
+ .search{
+   display: none;
+ }
+
+ .headerbar{
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }
+ .update{
+   background-color: black;
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+ .titlehead{
+   font-size: 40px;
+   background-color: white;
+   white-space: nowrap;
+ }
+ 
+ .toggle-button{
+   background-image: url(./imgs/Hamburger_icon.jpg);
+   width: 50px;
+   height: 50px;
+   border: none;
+   background-repeat: no-repeat ;
+ }
+ .nav-list{
+   padding-left: 0px;
+ }
+ #sidebar {
+   position: fixed;
+   top: 0px;
+   width: 150px;
+   height: 100%;
+   background-color: lightslategray;
+   left: -200px;
+   z-index: 2;
+ }
+ #sidebar.active{
+   left: 0px;
+ }
+ #sidebar ul li {
+   color: white;
+   list-style: none;
+   padding: 15px 10px;
+   border-bottom: 1px solid rgb(82, 93, 104) ;
+ }
+ #sidebar .toggle-button{
+   position: absolute;
+   left: 200px;
+   top:10px;
+ }
+ .close{
+   margin-left: 80%;
+   display: flex;
+   justify-content:  end;
+   background-color: black;
+   color: white;
+   
+ }
+ .search{
+  display: none;
+ }
+ 
+ .cart{
+   background: url(./imgs/shopping-cart-logo.jpg);
+   width: 85px;
+   height: 55px;
+   cursor: pointer;
+   font-weight: bold;
+   padding-bottom: 2px;
+   border: none;
+   background-color: none;
+   }
+ .appointment{
+   display: none;
+ }
+ .footer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footernav{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
+  
+}
+.footernav a{
+  padding: 2.5px;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+.copyright{
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: black;
+}
+}
