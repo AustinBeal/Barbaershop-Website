@@ -1,0 +1,9 @@
+img{
+  display: flex;
+justify-content: center;
+margin: auto;
+}
+h1{
+  text-align: center;
+  width: 100%;
+}

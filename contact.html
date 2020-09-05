@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contacts.css">
+  <script src="java.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>Contact</title>
+</head>
+<body>
+  <body>
+    <div class="headerbar">
+      <div class="toggle-button" onclick="toggleBar()">
+       </div>
+          <div id="sidebar"> 
+            <ul class="nav-list">
+              <button class="close" onclick="toggleBar()">X</button>
+              <li><a href="./index.html"> HOME</a></li>
+              <li><a href="./blog.html"> BLOG</a></li>
+              <li><a href="./barbers.html"> OUR BARBERS</a></li>
+              <li><a href="./contact.html"> CONTACT</a></li>
+            </ul>
+          </div>
+   <div>
+     <p class="titlehead">Bear-Ber Shop</p>
+  </div>
+   <button class="search">
+   </button>
+   <button class="appointment">
+     Schedule An Appointment
+   </button>
+   <button class="cart">
+   </button>
+  </div>
+  <h2 class="stronger">Bear-ber Shop - Contact Us</h2>
+  <div class="textwrapper">
+     <div class="smalltextwrapper">
+      <p class="strong">Bear-Ber Shop</p> 
+      <p>Email:bearbershop@barbers.com</p>
+      <p>Phone:(512)111.2222</p>
+      <p>Shop: 12345 Main Street</p>
+      <p>Austin, TX 78787</p>
+    </div>
+    <h2 class="contactus">CONTACT US</h2>
+       <div class="contact-container"> 
+      <div class="formcontainer">
+        <form class="form" role="form" method="GET" action="results.html">
+          <div class="form-group">
+            <div>
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+            </div>
+          </div>
+          <div class="form-group">
+            <div>
+              <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+            </div>
+          </div>
+          <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="button">
+              <span class="send-text">SEND</span>
+            </div>
+          </button>
+        </form>
+        </div>
+      </div>
+    </div>       
+    <footer class="footer">
+      <nav class="footernav">
+        <a href="https://www.facebook.com/">FACEBOOK</a>
+        <a href="https://www.instagram.com/">INSTAGRAM</a>
+        <a href="./blog.html">ANSWERS TO COMMON QUESTIONS</a>
+      </nav>
+      <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      <div class="socialmedialinks">
+      </div>
+  </footer>
+</body>
+</html>
